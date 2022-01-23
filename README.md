@@ -1,1 +1,1 @@
-# Parsers_Go
+Парсим погоду с openweathermap.org. 
