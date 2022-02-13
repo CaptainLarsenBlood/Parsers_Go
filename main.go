@@ -40,6 +40,7 @@ func main() {
 	//fmt.Println(data) // json
 
 	//Достаем нужные данные вручную (потом автоматизируем)
+	fmt.Printf("Город: %s\nДата и время: ", town)
 	log.Printf("\n") //Дата и время
 	fmt.Printf("Погода: %s \n", data["weather"].([]interface{})[0].(map[string]interface{})["description"])
 	fmt.Printf("Температура: %.0f *C\n", data["main"].(map[string]interface{})["temp"])
